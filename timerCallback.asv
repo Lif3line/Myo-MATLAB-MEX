@@ -1,0 +1,4 @@
+function data = timerCallback(obj, event)
+
+    [data Bnow] = myoInterface(0); 
+end

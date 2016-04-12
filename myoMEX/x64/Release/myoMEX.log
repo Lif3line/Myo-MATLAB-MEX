@@ -1,0 +1,12 @@
+﻿  myoMEX.cpp
+c:\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(39): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(39): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+c:\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(45): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(45): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+     Creating library E:\workCloud\GithubRepos\Myo-MATLAB-MEX\myoMEX\x64\Release\myoInterface.lib and object E:\workCloud\GithubRepos\Myo-MATLAB-MEX\myoMEX\x64\Release\myoInterface.exp
+  Generating code
+  14 of 308 functions ( 4.5%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  myoMEX.vcxproj -> E:\workCloud\GithubRepos\Myo-MATLAB-MEX\myoMEX\x64\Release\myoInterface.mexw64
