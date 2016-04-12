@@ -17,7 +17,8 @@ figure(1) % Figure for showing EMG
 set(gcf,'currentchar',']') % Used for exit on button press
 
 while get(gcf,'currentchar') == ']' % While no button (other than ]) has been pressed
-    data = get(t,'UserData'); % Get data from tiemr function
+    data = get(t,'UserData'); % Get data from tiemr function (call as often as needed: holds last 40 samples ~200ms)
+    
     emgData = reshape(data{1},[8,40])'; % Reshape data so columns are channels and rows are samples
     timestamps = data{2}; % Timestamps for each cycle
     
