@@ -14,7 +14,8 @@ Interface demonstration for taking Myo EMG data in near real time and piping to 
 ----
 ## Usage
 1. Get Myo Connect and ensure running correctly 
-2. Run myoTestEMG.m
+2. Ensure you have Microsoft Visual C++ REdistributables for Visual Studio 2015: https://www.microsoft.com/en-gb/download/details.aspx?id=48145
+3. Run myoTestEMG.m
 
 ----
 ## Notes on Visual Studio Project

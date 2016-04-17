@@ -1,0 +1,15 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  myoMEX.cpp
+c:\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(39): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(39): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+c:\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(45): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(45): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+     Creating library E:\workCloud\GithubRepos\Myo-MATLAB-MEX\myoMEX\Release\myoInterface.lib and object E:\workCloud\GithubRepos\Myo-MATLAB-MEX\myoMEX\Release\myoInterface.exp
+myoMEX.obj : error LNK2001: unresolved external symbol _mexErrMsgIdAndTxt
+myoMEX.obj : error LNK2001: unresolved external symbol _mxGetScalar
+myoMEX.obj : error LNK2001: unresolved external symbol _mxCreateDoubleMatrix_730
+myoMEX.obj : error LNK2001: unresolved external symbol _mxCreateNumericMatrix_730
+myoMEX.obj : error LNK2001: unresolved external symbol _mxGetPr
+myoMEX.obj : error LNK2001: unresolved external symbol _mxGetData
+E:\workCloud\GithubRepos\Myo-MATLAB-MEX\myoMEX\Release\myoInterface.mexw32 : fatal error LNK1120: 6 unresolved externals
